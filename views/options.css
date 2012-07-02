@@ -1,0 +1,60 @@
+/* CSS for the options.html page */
+body {
+  font-family: 'Verdana';
+}
+.news-item {
+  background-color: #F6F6EF;
+  border: 1px solid #999999;
+  left: 15px;
+  padding: 20px 20px 20px 30px;
+  position: absolute;
+  top: 15px;
+  width: 480px;
+}
+.news-item .news-item-title {
+  font-size: 13px;
+}
+.news-item .news-item-domain {
+  color: #828282;
+  font-size: 11px;
+}
+.news-item .news-item-info {
+  color: #828282;
+  font-size: 9px;
+}
+form {
+  border: 1px solid #999;
+  font-size: 12px;
+  margin: 30px 25px;
+  padding: 55px 10px 15px 10px;
+  width: 650px;
+}
+form input[type="checkbox"] {
+  margin-top: 9px;
+}
+form input[type="text"] {
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  display: block;
+  margin-left: 19px;
+  padding: 4px;
+  width: 500px;
+}
+form label {
+  color: #2A2A29;
+}
+form textarea {
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  display: block;
+  font-size: 13px;
+  margin: 2px 0 5px 19px;
+  padding: 4px;
+  width: 400px;
+}
+form textarea:disabled {
+  background-color: #F3F3F3;
+}
+form button {
+  margin-top: 15px;
+}

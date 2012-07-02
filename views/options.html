@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Options</title>
+    <link href='options.css' rel='stylesheet' type='text/css' />
+    <script src='../lib/jquery-1.7.2.min.js'></script>
+    <script src='../controllers/options.js'></script>
+  </head>
+  <body>
+    <form>
+      <div class='row'>
+        <input id='extend_subdomains' type='checkbox' />
+        <label for='extend_subdomains'>Show complete domain name next to stories</label>
+      </div>
+      <div class='row'>
+        <input id='show_instant_profile' type='checkbox' />
+        <label for='show_instant_profile'>Show user profile in a popup when clicking a username</label>
+      </div>
+      <div class='row'>
+        <input id='hide_domains' type='checkbox' />
+        <label for='hide_domains'>Hide stories from these domains</label>
+        <textarea id='hidden_domains_list'></textarea>
+      </div>
+      <button>Save</button>
+    </form>
+    <div class='news-item'>
+      <span class='news-item-title'>
+        Autobahn, the Hacker News web browser plugin
+      </span>
+      <span class='news-item-domain'>
+        (github.com)
+      </span>
+      <div class='news-item-info'>
+        225 points by vlad 1 hour ago | flag | 210 comments
+      </div>
+    </div>
+  </body>
+</html>

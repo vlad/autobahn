@@ -1,0 +1,63 @@
+#user_popup {
+  background-color: white;
+  border: 2px solid #f60;
+  border-radius: 8px;
+  color: black;
+  display: none;
+  font-size: 11px;
+  left: -5px;
+  min-height: 12px;
+  min-width: 50px;
+  position: absolute;
+  top: 13px;
+  width: 240px;
+  z-index: 999;
+
+  a {
+    color: #777777;
+  }
+
+  #user_description {
+    padding: 5px 7px;
+
+    a {
+      text-decoration: underline;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+  }
+
+  img {
+    float: left;
+    margin: 7px 7px 2px;
+  }
+
+  #user_links {
+    background-color: #f60;
+    color: black;
+    display: block;
+    padding: 2px 5px;
+    text-align: right;
+
+    a {
+      color: black;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .user-twitter {
+    padding: 5px 5px;
+    text-align: right;
+  }
+
+}
+
+.popup-target {
+  display: inline-block;
+  position: relative;
+}
